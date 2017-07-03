@@ -1,3 +1,5 @@
+http://nicholasamoore.x10host.com/colorGame.html
+
 RGB color matching application built with HTML, CSS, and Javascript.
 
 Two modes: Easy (3 choices), Hard (6 choices)
