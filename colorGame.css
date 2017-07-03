@@ -1,0 +1,84 @@
+body {
+	background-color: #232323;
+	/* Get rid of all margins */
+	margin: 0;
+	font-family: "Verdana";
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%; /*Add padding for empty space*/
+	float: left; /*Add this float so squares aren't on top of eachother*/
+	margin: 1.66%; /*Spacing between squares*/
+	border-radius: 25%;
+	transition: background 0.5s;
+	/*browser support for transition*/
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
+
+#container {
+	margin: 20px auto; /*zero on top and bottom, auto left and right*/
+	max-width: 600px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	line-height: 1.1;
+	font-weight: normal;
+	background-color: steelBlue;
+	/* Get rid of all margins */
+	margin: 0;
+	text-transform: uppercase;
+	padding: 20px 0;
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+
+.selected {
+	color: white;
+	background-color: steelblue;
+}
+
+#colorDisplay {
+	font-size: 200%;
+}
+
+button {
+	border: none;
+	font-family: "Verdana";
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: inherit;
+	/* add transition to all button attributes for 0.3 seconds*/
+	transition: all 0.3s;
+	/*browser support for transition*/
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	/* Remove blue outline */
+	outline: none;
+
+}
+
+button:hover {
+	color: white;
+	background-color: steelblue;
+}
+
+#message {
+	/* spacing around message */
+	display: inline-block;
+	width: 20%;
+	font-family: "Verdana";
+}
